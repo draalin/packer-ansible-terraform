@@ -1,5 +1,6 @@
-# Genal ignore
+# General ignore
 .env
+manifest.json
 
 # Local .terraform directories
 **/.terraform/*

@@ -6,7 +6,7 @@ help:
 
 build: ## Build and configure AMI with Packer & Ansible
 	cd packer
-	packer build template.json
+	packer build ubuntu.json
 
 deploy: ## Deploy Terraform infrastructure
 	cd terraform
