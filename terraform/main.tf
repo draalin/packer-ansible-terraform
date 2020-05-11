@@ -6,7 +6,7 @@ provider "aws" {
 
 data "aws_ami" "image" {
   most_recent = true
-  owners = ["self"]
+  owners      = ["self"]
   filter {
     name   = "name"
     values = ["web-ami"]

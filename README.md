@@ -20,6 +20,18 @@ destroy                        Destroy Terraform infrastructure
 ```
 
 ## Test Suites
+### Pre-commit
+#### Install Pre-commit
+```
+pip install pre-commit
+pre-commit --version
+pre-commit install
+```
+#### Run tests
+```
+pre-commit run --all-files
+```
+
 ### Ansible - Molecule
 #### Install Molecule
 ```

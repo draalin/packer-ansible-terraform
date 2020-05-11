@@ -10,7 +10,7 @@ build: ## Build and configure AMI with Packer & Ansible
 
 deploy: ## Deploy Terraform infrastructure
 	cd terraform
-	terraform init 
+	terraform init
 	terraform apply -auto-approve
 
 destroy: ## Destroy Terraform infrastructure
